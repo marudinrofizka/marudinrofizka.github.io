@@ -1,1 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marudin Rofizka - Digital Marketing & IT Professional</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body class="bg-gray-50 font-['Poppins']">
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col-reverse md:grid md:grid-cols-2 gap-12 items-center" data-aos="fade-right">
+                <!-- Text Content -->
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4">Marudin Rofizka</h1>
+                    <p class="text-xl md:text-2xl mb-6">Digital Marketing Specialist & IT Professional</p>
+                    <p class="text-lg mb-8">Transforming Ideas into Digital Success Stories</p>
+                    <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                        <a href="#contact" class="bg-white text-blue-800 px-6 py-3 rounded-full font-medium hover:bg-blue-100 transition">
+                            <i class="fas fa-envelope mr-2"></i>Contact
+                        </a>
+                        <!-- <a href="#portfolio" class="border-2 border-white text-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-blue-800 transition">
+                            <i class="fas fa-briefcase mr-2"></i>Portfolio
+                        </a> -->
+                        <a href="pdf/Marudin_Rofizka-1739294051760.pdf" target="_blank" class="bg-white text-blue-800 px-6 py-3 rounded-full font-medium hover:bg-blue-100 transition flex items-center">
+                            <i class="fas fa-download mr-2"></i>Download CV
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Profile Image -->
+                <div class="flex justify-center md:justify-end mb-8 md:mb-0">
+                    <div class="relative">
+                        <!-- Main Image Container -->
+                        <div class="w-48 h-48 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
+                            <img src="image/profile.jpg" alt="Marudin Rofizka" 
+                                 class="w-full h-full object-cover">
+                        </div>
+                        <!-- Decorative Elements -->
+                        <div class="absolute -top-4 -right-4 bg-blue-500 w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center shadow-lg">
+                            <i class="fas fa-code text-2xl md:text-3xl text-white"></i>
+                        </div>
+                        <div class="absolute -bottom-4 -left-4 bg-blue-500 w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center shadow-lg">
+                            <i class="fas fa-bullhorn text-2xl md:text-3xl text-white"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">About Me</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <p class="text-lg text-gray-700">
+                        A results-driven Digital Marketing Specialist with over 5 years of experience in developing and executing successful marketing strategies. Combining technical expertise in IT with creative marketing solutions to deliver exceptional results.
+                    </p>
+                    <div class="flex gap-4">
+                        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Digital Marketing</span>
+                        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Web Development</span>
+                        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">IT Solutions</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <i class="fas fa-chart-line text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="font-bold mb-2">Digital Strategy</h3>
+                        <p class="text-gray-600">Expert in creating comprehensive digital marketing strategies</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <i class="fas fa-code text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="font-bold mb-2">Development</h3>
+                        <p class="text-gray-600">Proficient in Laravel, CodeIgniter, and modern web technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gradient-to-br from-gray-50 to-gray-100" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-16 text-center">Professional Experience</h2>
+            <div class="relative">
+                <!-- Timeline Line -->
+                <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-blue-600"></div>
+                
+                <div class="space-y-12">
+                    <!-- PT KREASI MKMUR PERSADA -->
+                    <div class="relative flex flex-col md:flex-row items-center md:justify-between group">
+                        <div class="flex items-center order-1 md:w-5/12">
+                            <div class="hidden md:block w-20 h-0.5 bg-blue-600 group-hover:bg-blue-800 transition-colors duration-300"></div>
+                            <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 w-full transform hover:-translate-y-1">
+                                <span class="text-blue-600 text-sm font-semibold">Nov 2021 - Present</span>
+                                <h3 class="text-xl font-bold mt-2">Co-Founder Business Development</h3>
+                                <p class="text-blue-800 font-medium mt-1">PT KREASI MKMUR PERSADA</p>
+                                <p class="text-gray-600 mt-3">Leading business development initiatives and digital transformation strategies</p>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 -translate-x-1/2 md:mx-auto">
+                            <div class="w-12 h-12 rounded-full border-4 border-blue-600 bg-white flex items-center justify-center">
+                                <i class="fas fa-briefcase text-blue-600"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PT CAHAYA SUBUR LESTARI -->
+                    <div class="relative flex flex-col md:flex-row items-center md:justify-between group"">
+                        <div class="flex items-center order-1 md:w-5/12 md:ml-auto">
+                            <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 w-full transform hover:-translate-y-1">
+                                <span class="text-blue-600 text-sm font-semibold">Dec 2019 - Oct 2021</span>
+                                <h3 class="text-xl font-bold mt-2">Digital Advertiser Digital Marketing</h3>
+                                <p class="text-blue-800 font-medium mt-1">PT CAHAYA SUBUR LESTARI</p>
+                                <p class="text-gray-600 mt-3">Managed digital advertising campaigns and implemented marketing strategies to drive business growth</p>
+                            </div>
+                            <div class="hidden md:block w-20 h-0.5 bg-blue-600 group-hover:bg-blue-800 transition-colors duration-300"></div>
+                        </div>
+                        <div class="absolute left-1/2 -translate-x-1/2 md:mx-auto">
+                            <div class="w-12 h-12 rounded-full border-4 border-blue-600 bg-white flex items-center justify-center">
+                                <i class="fas fa-bullhorn text-blue-600"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Amary Bintaro Dental Clinic -->
+                    <div class="relative flex flex-col md:flex-row items-center md:justify-between group">
+                        <div class="flex items-center order-1 md:w-5/12">
+                            <div class="hidden md:block w-20 h-0.5 bg-blue-600 group-hover:bg-blue-800 transition-colors duration-300"></div>
+                            <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 w-full transform hover:-translate-y-1">
+                                <span class="text-blue-600 text-sm font-semibold">Aug 2019 - Dec 2019</span>
+                                <h3 class="text-xl font-bold mt-2">Graphic Designer IT Staff</h3>
+                                <p class="text-blue-800 font-medium mt-1">Amary Bintaro Dental Clinic</p>
+                                <p class="text-gray-600 mt-3">Created visual content and provided IT support for clinic operations</p>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 -translate-x-1/2 md:mx-auto">
+                            <div class="w-12 h-12 rounded-full border-4 border-blue-600 bg-white flex items-center justify-center">
+                                <i class="fas fa-palette text-blue-600"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PT ARTHA TEKNOLOGI SENI INOVASI -->
+                    <div class="relative flex flex-col md:flex-row items-center md:justify-between group">
+                        <div class="flex items-center order-1 md:w-5/12 md:ml-auto">
+                            <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 w-full transform hover:-translate-y-1">
+                                <span class="text-blue-600 text-sm font-semibold">Feb 2018 - Jul 2019</span>
+                                <h3 class="text-xl font-bold mt-2">School Relations Executive</h3>
+                                <p class="text-blue-800 font-medium mt-1">PT ARTHA TEKNOLOGI SENI INOVASI</p>
+                                <p class="text-gray-600 mt-3">Developed and maintained relationships with educational institutions while managing technology integration projects</p>
+                            </div>
+                            <div class="hidden md:block w-20 h-0.5 bg-blue-600 group-hover:bg-blue-800 transition-colors duration-300"></div>
+                        </div>
+                        <div class="absolute left-1/2 -translate-x-1/2 md:mx-auto">
+                            <div class="w-12 h-12 rounded-full border-4 border-blue-600 bg-white flex items-center justify-center">
+                                <i class="fas fa-school text-blue-600"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SMK IT GLOBAL PERSADA -->
+                    <div class="relative flex flex-col md:flex-row items-center md:justify-between group">
+                        <div class="flex items-center order-1 md:w-5/12">
+                            <div class="hidden md:block w-20 h-0.5 bg-blue-600 group-hover:bg-blue-800 transition-colors duration-300"></div>
+                            <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 w-full transform hover:-translate-y-1">
+                                <span class="text-blue-600 text-sm font-semibold">Mar 2017 - Jan 2018</span>
+                                <h3 class="text-xl font-bold mt-2">IT Support</h3>
+                                <p class="text-blue-800 font-medium mt-1">SMK IT GLOBAL PERSADA</p>
+                                <p class="text-gray-600 mt-3">Provided technical support and maintained IT infrastructure for the educational institution</p>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 -translate-x-1/2 md:mx-auto">
+                            <div class="w-12 h-12 rounded-full border-4 border-blue-600 bg-white flex items-center justify-center">
+                                <i class="fas fa-desktop text-blue-600"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CV Antsoft Media Computindo -->
+                    <div class="relative flex flex-col md:flex-row items-center md:justify-between group">
+                        <div class="flex items-center order-1 md:w-5/12 md:ml-auto">
+                            <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 w-full transform hover:-translate-y-1">
+                                <span class="text-blue-600 text-sm font-semibold">Mar 2014 - Apr 2016</span>
+                                <h3 class="text-xl font-bold mt-2">Graphic Design and IT Staff</h3>
+                                <p class="text-blue-800 font-medium mt-1">CV Antsoft Media Computindo</p>
+                                <p class="text-gray-600 mt-3">Combined creative design work with technical IT responsibilities to support company operations</p>
+                            </div>
+                            <div class="hidden md:block w-20 h-0.5 bg-blue-600 group-hover:bg-blue-800 transition-colors duration-300"></div>
+                        </div>
+                        <div class="absolute left-1/2 -translate-x-1/2 md:mx-auto">
+                            <div class="w-12 h-12 rounded-full border-4 border-blue-600 bg-white flex items-center justify-center">
+                                <i class="fas fa-pencil-ruler text-blue-600"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-gradient-to-br from-blue-50 to-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-16 text-center" data-aos="fade-down">Education Journey</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Universitas Pamulang -->
+                <div class="group" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                        <!-- Header with Icon -->
+                        <div class="bg-gradient-to-r from-blue-600 to-blue-800 p-6 text-white relative">
+                            <div class="absolute -bottom-8 left-6 w-16 h-16 bg-white rounded-xl shadow-lg flex items-center justify-center">
+                                <i class="fas fa-graduation-cap text-3xl text-blue-600"></i>
+                            </div>
+                        </div>
+                        <!-- Content -->
+                        <div class="p-6 pt-12">
+                            <span class="text-blue-600 text-sm font-semibold">2013 - 2020</span>
+                            <h3 class="text-xl font-bold mt-2">Information Technology</h3>
+                            <p class="text-blue-800 font-medium">Budiluhur University</p>
+                            <p class="text-gray-600 mt-3">Focused on Software Engineering and Web Development</p>
+                            <div class="mt-4 flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Web Development</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Software Engineering</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SMK Bina Informatika -->
+                <div class="group" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                        <!-- Header with Icon -->
+                        <div class="bg-gradient-to-r from-blue-600 to-blue-800 p-6 text-white relative">
+                            <div class="absolute -bottom-8 left-6 w-16 h-16 bg-white rounded-xl shadow-lg flex items-center justify-center">
+                                <i class="fas fa-school text-3xl text-blue-600"></i>
+                            </div>
+                        </div>
+                        <!-- Content -->
+                        <div class="p-6 pt-12">
+                            <span class="text-blue-600 text-sm font-semibold">2008 - 2012</span>
+                            <h3 class="text-xl font-bold mt-2">Madrasah Aliyah</h3>
+                            <p class="text-blue-800 font-medium">MA Daarul - Qoori'in</p>
+                            <p class="text-gray-600 mt-3">General Education with focus on Islamic Education and leadership</p>
+                            <div class="mt-4 flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Islamic Education</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SMP PGRI 1 Tangerang -->
+                <div class="group" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                        <!-- Header with Icon -->
+                        <div class="bg-gradient-to-r from-blue-600 to-blue-800 p-6 text-white relative">
+                            <div class="absolute -bottom-8 left-6 w-16 h-16 bg-white rounded-xl shadow-lg flex items-center justify-center">
+                                <i class="fas fa-book text-3xl text-blue-600"></i>
+                            </div>
+                        </div>
+                        <!-- Content -->
+                        <div class="p-6 pt-12">
+                            <span class="text-blue-600 text-sm font-semibold">2005 - 2008</span>
+                            <h3 class="text-xl font-bold mt-2">Junior High School</h3>
+                            <p class="text-blue-800 font-medium">SMP Negeri 3 Maja</p>
+                            <p class="text-gray-600 mt-3">General Education with focus on Computer and Science</p>
+                            <div class="mt-4 flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Computer</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Science</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center" data-aos="fade-down">Skills & Expertise</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-bullhorn text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="font-bold">Digital Marketing</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-users text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="font-bold">Teamwork</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-chart-line text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="font-bold">Analytical Skills</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-bezier-curve text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="font-bold">CorelDRAW</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" data-aos="fade-up" data-aos-delay="500">
+                    <i class="fas fa-file-word text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="font-bold">Microsoft Office</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" data-aos="fade-up" data-aos-delay="600">
+                    <i class="fab fa-laravel text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="font-bold">Laravel</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" data-aos="fade-up" data-aos-delay="700">
+                    <i class="fab fa-facebook text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="font-bold">Meta Ads</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" data-aos="fade-up" data-aos-delay="800">
+                    <i class="fab fa-php text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="font-bold">Codeigniter</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" data-aos="fade-up" data-aos-delay="900">
+                    <i class="fas fa-person-chalkboard text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="font-bold">Presentation Skills</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" data-aos="fade-up" data-aos-delay="1000">
+                    <i class="fas fa-image text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="font-bold">Adobe Photoshop</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" data-aos="fade-up" data-aos-delay="1100">
+                    <i class="fas fa-magnifying-glass-chart text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="font-bold">SEO Optimization</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" data-aos="fade-up" data-aos-delay="1200">
+                    <i class="fas fa-pen-to-square text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="font-bold">Content Writing</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center" data-aos="fade-down">Portfolio</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio Item 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="flip-left" data-aos-delay="100">
+                    <div class="relative">
+                        <img src="image/dbestproperty.png" alt="Project 1" class="w-full h-48 object-cover">
+                        <div class="absolute top-0 left-0 w-full h-full bg-blue-800 bg-opacity-75 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <div class="text-white text-center p-4">
+                                <a href="https://dbestpro.co.id" target="_blank" class="inline-block px-4 py-2 border-2 border-white rounded-full hover:bg-white hover:text-blue-800 transition">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">E-Commerce Website</h3>
+                        <p class="text-gray-600 mb-4">A full-featured online store built with Laravel and Vue.js</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Codeigniter</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Bootstrap</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="flip-left" data-aos-delay="200">
+                    <div class="relative">
+                        <img src="image/ixorra.png" alt="Project 2" class="w-full h-48 object-cover">
+                        <div class="absolute top-0 left-0 w-full h-full bg-blue-800 bg-opacity-75 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <div class="text-white text-center p-4">
+                                <a href="https://ixorraserpongresidence.co.id" target="_blank" class="inline-block px-4 py-2 border-2 border-white rounded-full hover:bg-white hover:text-blue-800 transition">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Digital Marketing Campaign</h3>
+                        <p class="text-gray-600 mb-4">Social media marketing campaign that increased engagement by 150%</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Laravel</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Tailwind CSS</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 with Modal -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="flip-left" data-aos-delay="300">
+                    <div class="relative">
+                        <img src="image/dynablock.png" alt="Project 3" class="w-full h-48 object-cover">
+                        <div class="absolute top-0 left-0 w-full h-full bg-blue-800 bg-opacity-75 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <div class="text-white text-center p-4">
+                                <button onclick="openModal('portfolio3Modal')" class="inline-block px-4 py-2 border-2 border-white rounded-full hover:bg-white hover:text-blue-800 transition">
+                                    View Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Company Management System</h3>
+                        <p class="text-gray-600 mb-4">Custom ERP solution built with Laravel and Tailwind CSS</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Laravel</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Tailwind CSS</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">jQuery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Portfolio Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-down">
+                <h2 class="text-3xl font-bold mb-4">Instagram Portfolio</h2>
+                <p class="text-gray-600">Check out my latest work on Instagram</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
+                <!-- Image 1 -->
+                <div class="relative group overflow-hidden rounded-xl" data-aos="zoom-in" data-aos-delay="100">
+                    <a href="https://www.instagram.com/p/Cc1-mWHvLXo/" target="_blank">
+                        <img src="image/dbestproofficial_1651038675_2825439655220786664_8292479972.webp" 
+                             alt="Portfolio 1" 
+                             class="w-full aspect-square object-cover transform group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                            <div class="p-6 text-white">
+                                <h3 class="font-bold text-lg">New Project NUP</h3>
+                                <p class="text-sm text-gray-200">Brief description of the project</p>
+                                <div class="mt-2 flex items-center">
+                                    <i class="fab fa-instagram mr-2"></i>
+                                    <span class="text-sm">View on Instagram</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Image 2 -->
+                <div class="relative group overflow-hidden rounded-xl" data-aos="zoom-in" data-aos-delay="200">
+                    <a href="https://www.instagram.com/p/Cxtt2jgvYrf/" target="_blank">
+                        <img src="image/dbestproofficial_1695858616_3201416571205290719_8292479972.webp" 
+                             alt="Portfolio 2" 
+                             class="w-full aspect-square object-cover transform group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                            <div class="p-6 text-white">
+                                <h3 class="font-bold text-lg">Maulid Nabi Muhammad SAW</h3>
+                                <p class="text-sm text-gray-200">Brief description of the project</p>
+                                <div class="mt-2 flex items-center">
+                                    <i class="fab fa-instagram mr-2"></i>
+                                    <span class="text-sm">View on Instagram</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Image 3 -->
+                <div class="relative group overflow-hidden rounded-xl" data-aos="zoom-in" data-aos-delay="300">
+                    <a href="https://www.instagram.com/p/Cy7aPTRvAuC/" target="_blank">
+                        <img src="image/dbestproofficial_1698465579_3223285359013792642_8292479972.webp" 
+                             alt="Portfolio 3" 
+                             class="w-full aspect-square object-cover transform group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                            <div class="p-6 text-white">
+                                <h3 class="font-bold text-lg">Sumpah Pemuda</h3>
+                                <p class="text-sm text-gray-200">Brief description of the project</p>
+                                <div class="mt-2 flex items-center">
+                                    <i class="fab fa-instagram mr-2"></i>
+                                    <span class="text-sm">View on Instagram</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Instagram Profile Link -->
+            <div class="text-center mt-8">
+                <a href="https://www.instagram.com/marudinrofizka_" 
+                   target="_blank" 
+                   class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-xl">
+                    <i class="fab fa-instagram mr-2"></i>
+                    Follow on Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-br from-blue-900 to-blue-800 text-white relative overflow-hidden">
+        <!-- Background decoration -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-0 w-96 h-96 bg-blue-400 rounded-full filter blur-3xl transform -translate-x-1/2 -translate-y-1/2"></div>
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-blue-300 rounded-full filter blur-3xl transform translate-x-1/2 translate-y-1/2"></div>
+        </div>
+
+        <div class="container mx-auto px-4 relative">
+            <!-- Section Header -->
+            <div class="text-center mb-16" data-aos="fade-down">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Get In Touch</h2>
+                <p class="text-blue-100 text-lg max-w-2xl mx-auto">Let's collaborate and create something amazing together</p>
+            </div>
+
+            <div class="max-w-5xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Contact Information Card -->
+                    <div class="bg-white/10 backdrop-blur-xl rounded-3xl p-8 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1" 
+                         data-aos="fade-right">
+                        <div class="space-y-8">
+                            <!-- Email -->
+                            <div class="group flex items-center gap-6 p-4 rounded-2xl hover:bg-white/10 transition-all duration-300">
+                                <div class="bg-gradient-to-br from-blue-500 to-blue-600 p-4 rounded-2xl shadow-lg">
+                                    <i class="fas fa-envelope text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <p class="text-blue-200 text-sm mb-1">Email</p>
+                                    <a href="mailto:marudinrofizkarz@gmail.com" 
+                                       class="text-lg hover:text-blue-300 transition-colors duration-300 break-all">
+                                        marudinrofizkarz@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- WhatsApp -->
+                            <div class="group flex items-center gap-6 p-4 rounded-2xl hover:bg-white/10 transition-all duration-300">
+                                <div class="bg-gradient-to-br from-green-500 to-green-600 p-4 rounded-2xl shadow-lg">
+                                    <i class="fab fa-whatsapp text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <p class="text-blue-200 text-sm mb-1">WhatsApp</p>
+                                    <a href="https://wa.me/6282218516677" 
+                                       class="text-lg hover:text-blue-300 transition-colors duration-300">
+                                        +62 822-1851-6677
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Location -->
+                            <div class="group flex items-center gap-6 p-4 rounded-2xl hover:bg-white/10 transition-all duration-300">
+                                <div class="bg-gradient-to-br from-purple-500 to-purple-600 p-4 rounded-2xl shadow-lg">
+                                    <i class="fas fa-location-dot text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <p class="text-blue-200 text-sm mb-1">Location</p>
+                                    <p class="text-lg">Tangerang Selatan, Indonesia</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Media Card -->
+                    <div class="bg-white/10 backdrop-blur-xl rounded-3xl p-8 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1"
+                         data-aos="fade-left">
+                        <h3 class="text-2xl font-bold mb-8 text-center">Connect With Me</h3>
+                        <div class="grid grid-cols-2 gap-6">
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/marudin-rofizka-4b31b1115/" target="_blank" class="group flex flex-col items-center text-center p-4 rounded-2xl hover:bg-white/10 transition-all duration-300">
+                                <div class="bg-gradient-to-br from-blue-500 to-blue-600 p-4 rounded-2xl shadow-lg mb-3">
+                                    <i class="fab fa-linkedin-in text-2xl"></i>
+                                </div>
+                                <span class="text-lg group-hover:text-blue-300 transition-colors duration-300">LinkedIn</span>
+                            </a>
+
+                            <!-- GitHub -->
+                            <a href="https://github.com/marudinrofizka" target="_blank" class="group flex flex-col items-center text-center p-4 rounded-2xl hover:bg-white/10 transition-all duration-300">
+                                <div class="bg-gradient-to-br from-gray-700 to-gray-800 p-4 rounded-2xl shadow-lg mb-3">
+                                    <i class="fab fa-github text-2xl"></i>
+                                </div>
+                                <span class="text-lg group-hover:text-blue-300 transition-colors duration-300">GitHub</span>
+                            </a>
+
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com/marudinrofizka_" target="_blank" class="group flex flex-col items-center text-center p-4 rounded-2xl hover:bg-white/10 transition-all duration-300">
+                                <div class="bg-gradient-to-br from-pink-500 to-purple-600 p-4 rounded-2xl shadow-lg mb-3">
+                                    <i class="fab fa-instagram text-2xl"></i>
+                                </div>
+                                <span class="text-lg group-hover:text-blue-300 transition-colors duration-300">Instagram</span>
+                            </a>
+
+                            <!-- Twitter -->
+                            <a href="#" class="group flex flex-col items-center text-center p-4 rounded-2xl hover:bg-white/10 transition-all duration-300">
+                                <div class="bg-gradient-to-br from-blue-400 to-blue-500 p-4 rounded-2xl shadow-lg mb-3">
+                                    <i class="fab fa-twitter text-2xl"></i>
+                                </div>
+                                <span class="text-lg group-hover:text-blue-300 transition-colors duration-300">Twitter</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="portfolio3Modal" class="fixed inset-0 z-50 hidden overflow-y-auto">
+        <div class="min-h-screen px-4 text-center">
+            <!-- Background overlay -->
+            <div class="fixed inset-0 bg-black bg-opacity-75 transition-opacity" onclick="closeModal('portfolio3Modal')"></div>
+
+            <!-- Modal content -->
+            <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full">
+                <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                    <!-- Close button -->
+                    <div class="absolute top-0 right-0 pt-4 pr-4">
+                        <button type="button" onclick="closeModal('portfolio3Modal')" class="text-gray-400 hover:text-gray-500 focus:outline-none">
+                            <span class="sr-only">Close</span>
+                            <i class="fas fa-times text-xl"></i>
+                        </button>
+                    </div>
+
+                    <!-- Modal header -->
+                    <div class="mb-4">
+                        <h3 class="text-2xl font-bold text-gray-900">Company Management System</h3>
+                        <p class="mt-2 text-gray-600">A comprehensive ERP solution for business management</p>
+                    </div>
+
+                    <!-- Image gallery -->
+                    <div class="space-y-4">
+                        <img src="image/dynablok-site.png" alt="Project Screenshot 1" class="w-full rounded-lg shadow-lg">
+                        <!-- <div class="grid grid-cols-3 gap-4">
+                            <img src="image/dynablock-2.png" alt="Project Screenshot 2" class="w-full rounded-lg shadow-lg">
+                            <img src="image/dynablock-3.png" alt="Project Screenshot 3" class="w-full rounded-lg shadow-lg">
+                            <img src="image/dynablock-4.png" alt="Project Screenshot 4" class="w-full rounded-lg shadow-lg">
+                        </div> -->
+                    </div>
+
+                    <!-- Project details -->
+                    <div class="mt-6">
+                        <h4 class="text-lg font-semibold mb-2">Project Details</h4>
+                        <p class="text-gray-600 mb-4">
+                            A custom-built ERP system designed to streamline business operations. Features include inventory management, 
+                            employee tracking, financial reporting, and real-time analytics dashboard.
+                        </p>
+                        <div class="space-y-2">
+                            <p><strong>Technologies Used:</strong></p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Laravel 9</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Tailwind CSS</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">jQuery</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">MySQL</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Alpine.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                    <!-- <a href="#" target="_blank" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-600 text-base font-medium text-white hover:bg-blue-700 focus:outline-none sm:ml-3 sm:w-auto sm:text-sm">
+                        Visit Website
+                    </a> -->
+                    <button type="button" onclick="closeModal('portfolio3Modal')" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add this JavaScript to the bottom of your body tag or in your scripts section -->
+    <script>
+        function openModal(modalId) {
+            document.getElementById(modalId).classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target.classList.contains('bg-black')) {
+                const modals = document.getElementsByClassName('fixed inset-0');
+                for (let modal of modals) {
+                    if (!modal.classList.contains('hidden')) {
+                        modal.classList.add('hidden');
+                        document.body.style.overflow = 'auto';
+                    }
+                }
+            }
+        }
+
+        // Close modal with ESC key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                const modals = document.getElementsByClassName('fixed inset-0');
+                for (let modal of modals) {
+                    if (!modal.classList.contains('hidden')) {
+                        modal.classList.add('hidden');
+                        document.body.style.overflow = 'auto';
+                    }
+                }
+            }
+        });
+
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
+
+    <!-- Add smooth scroll behavior -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</body>
+</html>
 
