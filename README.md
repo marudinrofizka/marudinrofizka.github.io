@@ -1,1 +1,1 @@
-Sebuah Website Fortofolio dengan Tailwind CSS
+Simple Website Fortofolio dengan Tailwind CSS
